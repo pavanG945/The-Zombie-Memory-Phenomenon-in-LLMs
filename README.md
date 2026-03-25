@@ -6,7 +6,7 @@ This project explores a critical security vulnerability in Large Language Models
 The work investigates how **machine unlearning** interacts with **post-training quantization**, revealing that unlearned data is not truly erased but masked — and can reappear when models are compressed.
 
 📄 Based on the research paper:  
-**"The Zombie Memory Phenomenon: How Post-Training Quantization Shatters Machine Unlearning Masks in Large Language Models"** :contentReference[oaicite:0]{index=0}
+"The Zombie Memory Phenomenon: How Post-Training Quantization Shatters Machine Unlearning Masks in Large Language Models"
 
 ---
 
@@ -99,3 +99,78 @@ Previously "deleted" information that **comes back to life** after quantization.
 ---
 
 ## 📂 Project Structure
+
+```
+├── notebooks/
+│   └── quantization_resilient_machine_unlearning.ipynb
+├── paper/
+│   └── Zombie_Memory_Phenomenon.pdf
+├── results/
+│   ├── graphs/
+│   └── metrics/
+├── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/zombie-memory-llm.git
+cd zombie-memory-llm
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the notebook:
+```bash
+jupyter notebook
+```
+
+---
+
+## 📈 Future Work
+
+- Develop **quantization-resistant unlearning**
+- Improve robustness of safety mechanisms
+- Explore **real-world LLM deployments**
+- Extend to larger models (e.g., LLaMA, GPT variants)
+
+---
+
+## 👨‍💻 Authors
+
+- Pavan Kumar Gembali  
+- Gompa Viswanadh Naidu  
+- Peta Sashi Vardhan  
+- Chakrika Gurrala  
+- Thulasi Bikku  
+- Srinivasarao Thota  
+
+---
+
+## 📜 License
+
+This project is for research and academic purposes.
+
+---
+
+## ⭐ Acknowledgements
+
+- Inspired by recent work in:
+  - Machine Unlearning
+  - LLM Safety
+  - Model Compression
+
+---
+
+## 📬 Contact
+
+For queries or collaboration:  
+📧 pavangembali945@gmail.com
+
+---
